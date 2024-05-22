@@ -1,0 +1,20 @@
+.center-aligned-header .ag-header-cell-label {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.right-aligned-header .ag-header-cell-label {
+    justify-content: right;
+    display: flex;
+    align-items: right;
+    text-align: right;
+}
+
+.left-aligned-header .ag-header-cell-label {
+    justify-content: left;
+    display: flex;
+    align-items: left;
+    text-align: left;
+}
