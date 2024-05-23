@@ -44,7 +44,7 @@ pytest
 
 ## Submitting a change
 
-You can submit a change by raising a [pull-request](https://github.com/paypal/AGridable/pulls) and assigning the reviewer as James Laidler.
+You can submit a change by raising a [pull-request](https://github.com/Electrify-Video-Partners/AGridable/pulls) and assigning the reviewer as James Laidler.
 
 Please ensure that, before raising a pull-request:
 
@@ -57,7 +57,7 @@ Please ensure that, before raising a pull-request:
 - Unit test coverage is 100%.
 - Docstrings are added/updated in the [numpy](https://numpydoc.readthedocs.io/en/latest/format.html) format, using the same style as the existing docstrings.
 
-**Note:** when a pull-request is raised, the `Build` workflow will run, which ensures that unit tests, doctests and notebook tests all successfully run on multiple versions of Python. If the `Build` fails, the merge will also fail - if this happens, please consult the logs in the [Actions](https://github.com/paypal/AGridable/actions) area of the repo to see where the `Build` has failed.
+**Note:** when a pull-request is raised, the `Build` workflow will run, which ensures that unit tests, doctests and notebook tests all successfully run on multiple versions of Python. If the `Build` fails, the merge will also fail - if this happens, please consult the logs in the [Actions](https://github.com/Electrify-Video-Partners/AGridable/actions) area of the repo to see where the `Build` has failed.
 
 ## Style guide
 
@@ -81,5 +81,5 @@ You can request a new feature in the [Issues](https://github.com/Electrify-Video
 
 If you have any other queries or questions, feel free to contact James Laidler:
 
-- [Email](james.a.laidler@gmail.com)
+- [Email](mailto:james.a.laidler@gmail.com)
 - [Linkedin](https://www.linkedin.com/in/james-laidler-430571a7)
