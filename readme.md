@@ -17,9 +17,21 @@ whilst working at [Electrify Video Partners](https://electrify.video/).
 
 ## Install Python Library
 
-First, install the Python library (preferably into a virtual environment):
+First, it's good practice to create a virtual environment to install **AGridable** into; here, we're using conda:
 
-```base
+```bash
+conda create -n agridable python=3.12
+```
+
+Once the environment is created, activate it:
+
+```bash
+conda activate agridable
+```
+
+Then install the AGridable library:
+
+```bash
 pip install agridable
 ```
 
@@ -28,13 +40,36 @@ pip install agridable
 **AGridable** relies on some standard Javascript functions and CSS formats; 
 these can be found in the [assets](./agridable/assets) folder. You must either:
 
-1) Copy these files into the assets folder of your site, or; 
+1) Copy these files into the assets folder of your Dash app, or; 
 2) If you already have versions of these files, append the functions and 
-formats in these files to the relevant files of your site.
+formats in these files to the relevant files of your Dash app.
 
 ## Use AGridable
 
 The best way to get started with **AGridable** is to look at the examples in the [examples](./examples) folder. These contain simple Dash apps that showcase how **AGridable** can be used to quickly and easily format a dataframe.
+
+To run these examples, first ensure you have the virtual environment where you installed AGridable activated (here, we're using the virtual environment created in the [Install Python Library](#install-python-library) step):
+
+```bash
+conda activate agridable
+```
+
+Then, clone the repo (here, we clone it to the home directory):
+
+```bash
+# cd to home directory
+cd
+# Clone repo
+git clone https://github.com/Electrify-Video-Partners/AGridable.git
+```
+
+Finally, run one of the examples (here, we're running the `simple_example.py`):
+
+```bash
+python AGridable/examples/simple_example.py
+```
+
+This should start a Flask server running the example Dash app; navigate to the URL where the server is running in your browser to see the app.
 
 # Contributing to AGridable
 
