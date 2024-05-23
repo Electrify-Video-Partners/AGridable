@@ -5,13 +5,8 @@ INSTALL_REQUIRES = [
     'pandas>=2.0.0,<3.0.0',
 ]
 EXTRAS_REQUIRE = {
-    'flask': [
-        'flask'
-    ],
-    'dist': [
-        'twine>=5.0.0,<6.0.0'
-    ],
     'dev': [
+        'twine>=5.0.0,<6.0.0',
         'pytest>=8.2.1,<9.0.0'
     ]
 }
