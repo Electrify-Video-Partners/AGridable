@@ -1,6 +1,11 @@
 """
 Intermediate example showing how AGridable can be used to apply column-wise 
 formatting (based on values in another column) to a grid.
+
+To run the example, you should call the file from the terminal via the command
+(assuming you're in the AGridable folder):
+
+python examples/intermediate_example.py
 """
 
 # Standard imports
