@@ -1,5 +1,5 @@
 """
-Intermediate example showing how AGridable can be used to apply column-wise 
+Intermediate example showing how AGridable can be used to apply column-wise
 formatting (based on values in another column) to a grid.
 
 To run the example, you should call the file from the terminal via the command
@@ -135,12 +135,9 @@ table = AGridable(
 )
 
 # Initialize the Dash app
-# IMPORTANT - you should set the `assets_folder` parameter to your assets
-# folder, and copy the files from the `assets` folder in the AGridable parent
-# directory into this folder
 app = dash.Dash(
     __name__,
-    assets_folder='..'  # Include `<parent>/agridable/assets` and `<parent>/examples/static`
+    assets_folder='./static'
 )
 
 # Define the layout of the app
