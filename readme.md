@@ -15,7 +15,7 @@ whilst working at [Electrify Video Partners](https://electrify.video/).
 
 # Quickstart
 
-## Install Python Library
+## Install AGridable
 
 First, it's good practice to create a virtual environment to install **AGridable** into; here, we're using conda:
 
@@ -34,15 +34,6 @@ Then install the AGridable library:
 ```bash
 pip install agridable
 ```
-
-## Transfer JS and CSS files
-
-**AGridable** relies on some standard Javascript functions and CSS formats; 
-these can be found in the [assets](./agridable/assets) folder. You must either:
-
-1) Copy these files into the assets folder of your Dash app, or; 
-2) If you already have versions of these files, append the functions and 
-formats in these files to the relevant files of your Dash app.
 
 ## Use AGridable
 
