@@ -26,7 +26,7 @@ EXTRAS_REQUIRE = {
 }
 setuptools.setup(
     name="agridable",
-    version="0.0.3",
+    version="0.0.4",
     author="James Laidler",
     url="https://github.com/Electrify-Video-Partners/AGridable",
     description="AGridable is a Python library which makes formatting tables in your Dash app a breeze.",
