@@ -41,6 +41,5 @@ setuptools.setup(
     python_requires='>=3.12',
     long_description=long_description,
     long_description_content_type='text/markdown',
-
     include_package_data=True
 )
